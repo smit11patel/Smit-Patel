@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intia-scale=1.0" />
+    <title>Smit Patel's Personal Website</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo">Smit Patel</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="leadership-roles.html" class="navbar__links">Leadership Roles</a>
+          </li>
+          <li class="navbar__item">
+            <a href="skills.html" class="navbar__links">Skills</a>
+          </li>
+          <li class="navbar__item">
+            <a href="activities.html" class="navbar__links">Activities</a>
+          </li>
+          <li class="navbar__item">
+            <a href="cert-acc.html" class="navbar__links">Certifications & Accolades</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="contact.html" class="button">Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div class="header-content-container">
+        <div class="header-content">
+            <h1>Welcome to My Personal Website</h1>
+            <p>Leadership | Achievements</p>
+        </div>
+    </div>
+    
+    <div>
+        <h2>About Smit Patel</h2>
+        <hr class="short-line">
+        <p>A responsible and hard-working high school student with leadership experience and excellent problem-solving skills. Communication skils honed through hospitality experience, committed to geting things done with excellent efficiency. Passionate about learning and working in a dynamic environment and eager to apply diverse skills to support peer enrichment.</p>
+    </div>
+
+    <div class="services" id="services">
+        <h1>My Involvements</h1>
+        <div class="services__wrapper">
+          <div class="services__card">
+            <h2>Leadership<br>Roles</h2>
+            <div class="services__btn"><button onclick="redirectToPage('leadership-roles.html')">Explore</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Skills</h2>
+            <div class="services__btn"><button onclick="redirectToPage('skills.html')">Explore</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Activities</h2>
+            <div class="services__btn"><button onclick="redirectToPage('activities.html')">Explore</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Certifications & Accolades</h2>
+            <div class="services__btn"><button onclick="redirectToPage('cert-acc.html')">Explore</button></div>
+          </div>
+        </div>
+    </div>      
+    
+    <div class="index-contact-container">
+      <h1>Connect With Me</h1>
+      <p>Feel free to reach out with any queries or collaboration opportunities.</p>
+      <div class="index-contact-box">
+        <div class="index-contact-left">
+          <h3>Send Your Message</h3>
+          <form>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Name</label>
+                <input type="text" placeholder="Your Name">
+              </div>
+              <div class="input-group">
+                <label>Phone</label>
+                <input type="text" placeholder="+1 647 985 3872">
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Email</label>
+                <input type="text" placeholder="you@example.com">
+              </div>
+              <div class="input-group">
+                <label>Subject</label>
+                <input type="text" placeholder="Your Subject">
+              </div>
+            </div>
+            <label>Message</label>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">SEND</button>
+          </form>
+        </div>
+        <div class="index-contact-right">
+          <h3>Reach Me</h3>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>smit11patel@icloud.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>+1 647 985 3872</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>67 Versailles Cres<br>Brampton, Ontario, L6P3K1</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <h3>Smit Patel</h3>
+        <a href="tel:+647-985-3872">647-985-3872</a>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2024 Smit Patel - All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
